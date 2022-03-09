@@ -1,0 +1,38 @@
+.SearchBar {
+    padding-top: auto;
+    margin-bottom: 6.33rem;
+    background-color: #F2FAFF;
+    color: black;
+    display: flex;
+    flex-direction: row;
+  }
+
+.P-title {
+    font-size: medium;
+    margin-left: 100px;
+    font-family: Brush Script MT;
+    width: 40%;
+}
+.menu-li-up {
+    text-align: center;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.menu-li-up ul {
+    list-style:none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-li li{
+    border: 1px solid burlywood;
+    flex: 2;
+}
+.menu-li li :hover{
+    border-radius: 1px solid;
+    background-color: bisque;
+}
