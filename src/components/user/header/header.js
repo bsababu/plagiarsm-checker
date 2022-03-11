@@ -3,9 +3,7 @@ import './header.css';
 
 
 export class HeaderUp extends React.Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {term:''}
+    
    
 
     render() {
