@@ -2,11 +2,7 @@ import React from "react";
 import './header.css';
 
 
-export class HeaderUp extends React.Component {
-    
-   
-
-    render() {
+export function HeaderUp (){
         return (
             <div className="SearchBar">
                 <div className="P-title">
@@ -41,8 +37,6 @@ export class HeaderUp extends React.Component {
                         </div>
                         </div>
             </div>
-
-            
         )
     }
-}
+
